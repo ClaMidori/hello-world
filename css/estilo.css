@@ -1,0 +1,288 @@
+/* RESET */
+*{
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    box-sizing: border-box; 
+    font-family: "Oswald", sans-serif;
+}
+
+nav, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff; 
+    cursor: pointer; 
+    opacity: 0.9;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+/* BANNER */
+.banner{
+    background-image: linear-gradient(rgba(20, 0, 0, 0.4), rgba(20, 0, 0, 0.4)), url(../img/banner1.jpg);
+    background-size: cover;
+    min-height: 64vh;
+    display: flex; 
+    justify-content: start; 
+    flex-direction: column;
+}
+
+/* HEADER */
+header{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div{
+    color: #fff;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.grande{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+/* TÍTULO BANNER */
+h1{
+    color: #fff;
+    width: 50%;
+    margin: 1rem auto;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* FORM */
+.get-started{
+    width: 40%;
+    height: 30%;
+    background-color: rgb(211, 23, 3);
+    margin-left: 10%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 1px solid bisque;
+}
+
+.get-started h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 1.3rem;
+    width: 95%;
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input{
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    width: 11.3rem;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+form button{
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 11.3rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    padding: 5px 0;
+}
+
+/* CHECKBOXES */
+.check{
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 50px 10%;
+}
+
+.check input{
+    width: 15px;
+    height: 15px;
+}
+
+.check input[type='checkbox']:checked{
+    accent-color: rgb(211, 23, 3);
+    color: black;
+}
+
+.check h4{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 350;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+/* SEGUNDA SEÇÃO */
+.increase, .quarta{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.increase img, .quarta img{
+    width: 28rem;
+}
+
+.increase div{
+    width: 28rem;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.increase h4, .quarta h4{
+    color: rgb(211, 23, 3);
+    font-size: 1.3rem;
+    font-weight: 450;
+    text-transform: uppercase;
+}
+
+.increase p, .quarta p{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+/* PARTE DE VÍDEOS */
+.videos{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.videos h3{
+    color: rgb(211, 23, 3);
+    font-size: 1.3rem;
+    font-weight: 450;
+    text-transform: uppercase;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 0 13px;
+}
+
+.imagens img{
+    width: 18rem;
+}
+
+.imagens div{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 350;
+}
+
+/* QUARTA SEÇÃO */
+/* grande parte do estilo reaproveitei da segunda seção */
+.quarta div{
+    width: 28rem;
+    padding: 40px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 20px 0 0;
+}
+
+
+/* CITAÇÕES */
+.quotes{
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+}
+
+.quotes div{
+    width: 70%;
+    padding: 0 15px;
+}
+
+.espaco {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.quotes p{
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.quotes h4{
+    color: rgb(211, 23, 3);
+    font-size: 1rem;
+    font-weight: 350;
+    text-transform: uppercase;
+    align-self: center;
+    margin: 10px 0 10px 0;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    font-size: 0.9rem;
+    font-weight: 350;
+    padding: 20px;
+}
